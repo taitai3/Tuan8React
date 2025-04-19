@@ -1,0 +1,21 @@
+{
+    "summerRecipes": [
+      { "id": 1, "title": "Italian-style tomato", "img": "/Bean, shrimp, and potato salad.png" },
+      { "id": 2, "title": "Spaghetti with vegetables", "img": "/cucumber_salad_charry_tomatoes.png"},
+      { "id": 3, "title": "Lotus delight salad", "img": "/Salad with cabbage.png" },
+      { "id": 4, "title": "Snack cakes", "img": "/Salad with cabbage.png" }
+    ],
+    "videoRecipes": [
+      { "id": 1, "title": "Salad with cabbage and shrimp", "img": "/Vegetable and shrimp spaghetti.png" },
+      { "id": 2, "title": "Stuffed glove beans, shrimp and potatoes", "img": "/Sunny-side up fried eggs.png" },
+      { "id": 3, "title": "Sunny side up fried egg", "img": "/Potato Salad.png" },
+      { "id": 4, "title": "Lotus delight salad", "img": "/Lotus delight salad.png" }
+    ],
+    "editorPicks": [
+      { "id": 1, "title": "Stuffed sticky rice ball", "img": "/Italian-style tomato.png", "author": "Jennifer King", "description": "Stuffed sticky rice balls: A delightful Asian treat with chewy glutinous rice and a flavorful surprise filling." },
+      { "id": 2, "title": "Strawberry smoothie", "img": "/corn_salad.png", "author": "Matthew Martinez", "description": "Savor the refreshing delight of a strawberry smoothie. Made with ripe strawberries, this creamy blend offers." },
+      { "id": 3, "title": "Latte art", "img": "/Italian-style tomato.png", "author": "Sarah Hill", "description": "Latte art: the skillful craft of creating captivating designs on the surface of a latte." },
+      { "id": 4, "title": "Butter fried noodles", "img": "/Sunny-side up fried eggs.png", "author": "Julie Perez", "description": "Butter fried noodles: Savory noodles cooked in butter with spices and stir fry." }
+    ]
+  }
+  
