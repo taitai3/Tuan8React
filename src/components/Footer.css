@@ -1,0 +1,152 @@
+.footer {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    padding: 3rem 0;
+  }
+  
+  .footer-container {
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-columns {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-text {
+    margin-bottom: 1.5rem;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .newsletter-form {
+      flex-direction: row;
+    }
+  }
+  
+  .newsletter-input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    flex-grow: 1;
+    outline: none;
+  }
+  
+  .newsletter-input:focus {
+    border-color: #f97316;
+    box-shadow: 0 0 0 2px #fdba74;
+  }
+  
+  .newsletter-button {
+    background-color: #f97316;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #ea580c;
+  }
+  
+  .footer-logo {
+    margin-top: auto;
+  }
+  
+  .logo-img {
+    height: 3rem;
+  }
+  
+  .footer-subtitle {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .link-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .link-list a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .link-list a:hover {
+    color: #f97316;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #d1d5db;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-bottom {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .footer-policies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .footer-policies a {
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 0.875rem;
+  }
+  
+  .footer-policies a:hover {
+    color: #f97316;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .footer-social a {
+    color: #4b5563;
+  }
+  
+  .footer-social a:hover {
+    color: #f97316;
+  }
+  
