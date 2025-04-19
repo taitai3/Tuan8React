@@ -129,5 +129,105 @@
     .navbar-mobile-links {
       display: flex;
     }
+    /* Header.css */
+
+.header {
+    position: relative;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .header-content {
+    position: relative;
+    z-index: 10;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    max-width: 768px; /* tương đương max-w-3xl */
+  }
+  
+  @media (min-width: 768px) {
+    .header-content {
+      padding-left: 4rem;  /* md:px-16 */
+      padding-right: 4rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .header-content {
+      padding-left: 6rem;  /* lg:px-24 */
+      padding-right: 6rem;
+    }
+  }
+  
+  .recipe-label {
+    display: inline-block;
+    background-color: #facc15; /* yellow-500 */
+    color: #000;
+    font-size: 0.875rem;       /* text-sm */
+    font-weight: 600;          /* font-semibold */
+    padding: 0.25rem 0.75rem;  /* py-1 px-3 */
+    border-radius: 0.375rem;   /* rounded */
+    margin-bottom: 1rem;
+  }
+  
+  .header-title {
+    font-size: 2.25rem;         /* text-4xl */
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  @media (min-width: 768px) {
+    .header-title {
+      font-size: 3rem;          /* md:text-5xl */
+    }
+  }
+  
+  .header-desc {
+    font-size: 1.125rem;        /* text-lg */
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  @media (min-width: 768px) {
+    .header-desc {
+      font-size: 1.25rem;       /* md:text-xl */
+    }
+  }
+  
+  .cta-button {
+    background-color: #ec4899;  /* pink-500 */
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;     /* py-2 px-6 */
+    border: none;
+    border-radius: 9999px;      /* rounded-full */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color .2s;
+  }
+  
+  .cta-button:hover {
+    background-color: #db2777;  /* pink-600 */
+  }
+  
+  .cta-button .icon {
+    font-size: 1.25rem;         /* text-xl */
+  }
+  
   }
   

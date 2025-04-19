@@ -1,0 +1,70 @@
+.header {
+    position: relative;
+    height: 800px;
+    background-image: url('/backgroundBanner.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .content-box {
+    position: relative;
+    z-index: 10;
+    background: white;
+    padding: 2rem;
+    max-width: 450px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  }
+  
+  .label {
+    display: inline-block;
+    background-color: #facc15;
+    color: black;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #e11d48;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    background-color: #ec4899;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #db2777;
+  }
+  
